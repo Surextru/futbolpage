@@ -1,0 +1,250 @@
+
+/*General*/
+html{
+    font-family: "Lucida Sans Unicode";
+    background-color: blanchedalmond;
+}
+header{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 190px;
+    justify-content: space-around;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    background-color:#3CB371;
+}
+.titulog{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#315050;
+    text-shadow: 0px 0px 2px black;
+}
+.logo{
+    position: relative;
+    display: flex;
+    width: 13%;
+}
+.nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    left: auto;
+    right: 0px;
+    border-top: 6px solid blanchedalmond;
+    border-bottom: 6px solid blanchedalmond;
+}
+.ulnavclass{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    flex-wrap: nowrap;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color:#3CB371;
+    color:#315050;
+    font-size: 30;
+    text-shadow: 0px 0px 1px black;
+}
+.boton:hover{
+    background-color: #315050;;
+    color: #3CB371;
+    text-shadow: 0px 0px 1px #3CB371;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    color:  #315050;
+    text-shadow: 0px 0px 1px black;
+    background-color: #3eff77;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+section{
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: #f2f2f2;
+}
+
+/*Home*/
+.home_section{
+    color:  #315050;
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #f2f2f2;
+}
+.espacio{
+    padding-left: 5%;
+}
+
+/*About*/
+.about_section{
+    color: #315050;
+    border: 1 px solid black;
+    background-color: #f2f2f2;
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*Contact*/
+.contact_section{
+    color: #315050;
+    background-color: #f2f2f2;
+}
+.contactp1{
+    margin-top:0px;
+    padding-top:3%;
+    padding-left:4%;
+    
+}
+.contactp2{
+    padding-left: 4%;
+    padding-bottom: 3%
+}
+
+/*information*/
+.tab{
+    display: flex;
+    justify-content: space-around;
+}
+.tb{
+    padding-top: 3%;
+    color:  #315050;
+    display: inline-table;
+}
+td{
+    padding-left:15px;
+}
+.facility{
+    margin-top: 20px;
+    padding-bottom: 0.8%;
+    padding-left: 2%;
+    padding-right:2%;
+    color:  #315050;
+}
+.gltab_mapa{
+    margin-top:3%;
+    display:flex;
+    justify-content: space-around;
+}
+.gltab{
+    color:  #315050;
+}
+.gltabclass{
+    margin-top:20px;
+}
+.divfoot{
+    display: flex;
+}
+.footclass{
+    margin-top:1%;
+    color:  #315050;
+    display: flex;
+    justify-content: space-around;
+}
+/*rules*/
+.tit{
+    text-align: center; 
+    color:  #315050;
+}
+.titt{   
+    color:  #315050;
+}
+.sportmanship{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.allrulesclass{
+    color:  #315050;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+.rules_section{
+    padding:2%;
+}
+
+/*Former*/
+*{
+    box-sizing: border-box;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 2%;
+    font-size: 25px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.tbformclass{
+    display: flex;
+    justify-content: center;
+    color:  #315050;
+    background-color: #f2f2f2;
+}
+.tituloform{
+    text-align: center;
+    color:  #315050;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

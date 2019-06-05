@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <title>Nordside Youth Soccer League</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="iamgen">
+        <h1 class="titulog">Nordside Youth Soccer League</h1>
+    </header>
+        
+    <div class="nav">
+        <ul class="ulnavclass"> 
+            <a href="home.html" class="boton" id="col">Home</a></li>
+            <a href="about_NYSL.html" class="boton">About NYSL</a></li>
+            <a href="rules.html" class="boton">Rules & Policies</a></li>
+            <a href="information_NYSL.html" class="boton">Information</a></li>
+            <a href="contactanos.html" class="boton">Contact</a></li>
+            <a href="form.html" class="boton">Registration</a></li>
+        </ul>
+    </div>
+        
+    <div class="titulo">
+        <h2>Form</h2>
+    </div>
+    
+    <h3 class="tituloform">The following information has been sent as your feedback:</h3>
+    <section>
+        <div class="tbformclass">
+            <table class="tbform">
+                <tr>
+                    <th >Form Field</th>
+                    <th >Field Value</th>
+                </tr>
+                <script language="javascript">
+                      var args = location.search.substr(1).split('&');
+                      for (var i = 0; i < args.length; ++i)
+                       {
+                          var parts = args[i].split('=');
+                          if (parts != null) 
+                          {
+                                var field = parts[0];
+                                var value = parts[1];
+                                if (value == null) {
+                                      value = "null"
+                                }
+                                else {
+                                    value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                                }
+                                  document.writeln('<tr><td align="center">' + field + '</td>');
+                                  document.writeln('<td align="center">' + value + '</td></tr>');
+                          }       
+                        }
+                </script>
+              </table>
+        </div>
+    </section>
+</body>
+</html>
